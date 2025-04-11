@@ -1,11 +1,12 @@
 using UnityEngine;
 
-public class HelloWorld : MonoBehaviour
+public class NewMonoBehaviourScript : MonoBehaviour
 {
+    public float speed = 3.0f;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        Debug.Log("Hello World");
+        
     }
 
     // Update is called once per frame
