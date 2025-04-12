@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9cf4d00-f529-4d01-b25b-82151d04f8a1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.unity_book/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.unity_book/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityInAction/RayShooter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UnityInAction/RayShooter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityInAction/ReactiveTarget.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UnityInAction/ReactiveTarget.cs" afterDir="false" />
-    </list>
+    <list default="true" id="e9cf4d00-f529-4d01-b25b-82151d04f8a1" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -101,7 +97,7 @@
       <updated>1744170609196</updated>
       <workItem from="1744170610779" duration="1218000" />
       <workItem from="1744427926976" duration="3746000" />
-      <workItem from="1744434285961" duration="24517000" />
+      <workItem from="1744434285961" duration="25159000" />
     </task>
     <servers />
   </component>
