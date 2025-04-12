@@ -13,6 +13,12 @@ namespace UnityInAction
 
     public RotationAxes axes = RotationAxes.MouseXAndY;
     public float sensitivityHor = 9.0f;
+    public float sensitivityVert = 9.0f;
+
+    public float minimumVert = -45.0f;
+    public float maximumVert = 45.0f;
+
+    private float verticalRot = 0;
 
     void Update()
     {
@@ -22,7 +28,12 @@ namespace UnityInAction
       }
       else if (axes == RotationAxes.MouseY)
       {
-        
+        verticalRot -= Input.GetAxis("Mouse Y") * sensitivityVert;
+        verticalRot = Mathf.Clamp(verticalRot, minimumVert, maximumVert);
+
+        float horizontalRot = transform.localEulerAngles.y;
+
+        transform.localEulerAngles = new Vector3(verticalRot, horizontalRot, 0);
       }
       else
       {

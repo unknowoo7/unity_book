@@ -17,7 +17,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MouseLook.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/844019a3a067481c8d9cb70c7a2ba4471df600/28/f8842ea7/Transform.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
@@ -96,7 +96,7 @@
       <updated>1744170609196</updated>
       <workItem from="1744170610779" duration="1218000" />
       <workItem from="1744427926976" duration="3746000" />
-      <workItem from="1744434285961" duration="688000" />
+      <workItem from="1744434285961" duration="2574000" />
     </task>
     <servers />
   </component>
