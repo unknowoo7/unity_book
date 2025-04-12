@@ -1,17 +1,21 @@
+using System.Collections;
 using UnityEngine;
 
 namespace UnityInAction
 {
   public class ReactiveTarget : MonoBehaviour
   {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public void ReactToHit()
     {
+      //круитин
+      StartCoroutine(Die());
     }
 
-    // Update is called once per frame
-    void Update()
+    private IEnumerator Die()
     {
+      transform.Rotate(-75, 0, 0);
+      yield return new WaitForSeconds(1.5f);
+      Destroy(gameObject);
     }
   }
 }

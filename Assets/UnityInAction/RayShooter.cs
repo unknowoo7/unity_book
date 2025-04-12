@@ -36,7 +36,7 @@ namespace UnityInAction
         {
           if (hit.transform.gameObject.TryGetComponent(out _target))
           {
-            Debug.Log("Target hit");
+            _target.ReactToHit();
           }
           else
           {
