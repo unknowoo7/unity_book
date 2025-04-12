@@ -9,6 +9,7 @@ namespace UnityInAction
   public class RayShooter : MonoBehaviour
   {
     private Camera _camera;
+    private ReactiveTarget _target;
     void Start()
     {
       _camera = GetComponent<Camera>();
@@ -33,7 +34,14 @@ namespace UnityInAction
         RaycastHit hit;
         if (Physics.Raycast(ray, out hit))
         {
-          StartCoroutine(SphereIndicator(hit.point));;
+          if (hit.transform.gameObject.TryGetComponent(out _target))
+          {
+            Debug.Log("Target hit");
+          }
+          else
+          {
+            StartCoroutine(SphereIndicator(hit.point));
+          }
         }
       }
     }

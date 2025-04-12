@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 
 namespace UnityInAction
@@ -19,8 +18,9 @@ namespace UnityInAction
     public float minimumVert = -45.0f;
     public float maximumVert = 45.0f;
 
-    private float verticalRot = 0;
-
+    private float _verticalRot;
+    private Rigidbody _body;
+    
     void Update()
     {
       if (axes == RotationAxes.MouseX)
@@ -29,31 +29,30 @@ namespace UnityInAction
       }
       else if (axes == RotationAxes.MouseY)
       {
-        verticalRot -= Input.GetAxis("Mouse Y") * sensitivityVert;
-        verticalRot = Mathf.Clamp(verticalRot, minimumVert, maximumVert);
+        _verticalRot -= Input.GetAxis("Mouse Y") * sensitivityVert;
+        _verticalRot = Mathf.Clamp(_verticalRot, minimumVert, maximumVert);
 
         float horizontalRot = transform.localEulerAngles.y;
 
-        transform.localEulerAngles = new Vector3(verticalRot, horizontalRot, 0);
+        transform.localEulerAngles = new Vector3(_verticalRot, horizontalRot, 0);
       }
       else
       {
-        verticalRot -= Input.GetAxis("Mouse Y") * sensitivityVert;
-        verticalRot = Mathf.Clamp(verticalRot, minimumVert, maximumVert);
+        _verticalRot -= Input.GetAxis("Mouse Y") * sensitivityVert;
+        _verticalRot = Mathf.Clamp(_verticalRot, minimumVert, maximumVert);
 
         float delta = Input.GetAxis("Mouse X") * sensitivityHor;
         float horizontalRot = transform.localEulerAngles.y + delta;
         
-        transform.localEulerAngles = new Vector3(verticalRot, horizontalRot, 0);
+        transform.localEulerAngles = new Vector3(_verticalRot, horizontalRot, 0);
       }
     }
 
     private void Start()
     {
-      Rigidbody body = GetComponent<Rigidbody>();
-      if (body)
+      if (transform.TryGetComponent(out _body))
       {
-        body.freezeRotation = true;
+        _body.freezeRotation = true;
       }
     }
   }
