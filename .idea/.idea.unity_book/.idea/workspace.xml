@@ -19,6 +19,8 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/844019a3a067481c8d9cb70c7a2ba4471df600/28/f8842ea7/Transform.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/844019a3a067481c8d9cb70c7a2ba4471df600/49/40a6af34/Time.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/844019a3a067481c8d9cb70c7a2ba4471df600/b5/d8efc2c3/Camera.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/844019a3a067481c8d9cb70c7a2ba4471df600/f1/a288cdf5/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/UnityInAction/FPSInput.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
@@ -98,7 +100,7 @@
       <updated>1744170609196</updated>
       <workItem from="1744170610779" duration="1218000" />
       <workItem from="1744427926976" duration="3746000" />
-      <workItem from="1744434285961" duration="18578000" />
+      <workItem from="1744434285961" duration="19217000" />
     </task>
     <servers />
   </component>

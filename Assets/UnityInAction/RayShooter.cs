@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using UnityEngine;
 
@@ -11,6 +12,16 @@ namespace UnityInAction
     void Start()
     {
       _camera = GetComponent<Camera>();
+      Cursor.lockState = CursorLockMode.Locked;
+      Cursor.visible = false;
+    }
+
+    private void OnGUI()
+    {
+      int size = 12;
+      float posX = _camera.pixelWidth / 2.0f - size / 4.0f;
+      float posY = _camera.pixelHeight / 2.0f - size / 2.0f;
+      GUI.Label(new Rect(posX, posY, size, size), "*");
     }
 
     void Update()
