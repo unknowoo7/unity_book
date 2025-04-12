@@ -10,7 +10,8 @@ namespace UnityInAction
     {
       float deltaX = Input.GetAxis("Horizontal") * speed;
       float deltaZ = Input.GetAxis("Vertical") * speed;
-      transform.Translate(deltaX, 0, deltaZ);
+      Debug.Log(Time.deltaTime);
+      transform.Translate(deltaX * Time.deltaTime, 0, deltaZ * Time.deltaTime);
     }
   }
 }
