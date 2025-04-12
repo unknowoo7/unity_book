@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e9cf4d00-f529-4d01-b25b-82151d04f8a1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.unity_book/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.unity_book/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Spin.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Spin.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UnityInAction/MouseLook.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UnityInAction/MouseLook.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +38,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.sourceCode.C#",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -98,6 +96,7 @@
       <updated>1744170609196</updated>
       <workItem from="1744170610779" duration="1218000" />
       <workItem from="1744427926976" duration="3746000" />
+      <workItem from="1744434285961" duration="688000" />
     </task>
     <servers />
   </component>
