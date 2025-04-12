@@ -38,7 +38,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -96,7 +96,7 @@
       <updated>1744170609196</updated>
       <workItem from="1744170610779" duration="1218000" />
       <workItem from="1744427926976" duration="3746000" />
-      <workItem from="1744434285961" duration="2574000" />
+      <workItem from="1744434285961" duration="4801000" />
     </task>
     <servers />
   </component>
@@ -112,5 +112,9 @@
   <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

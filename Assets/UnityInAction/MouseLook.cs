@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 namespace UnityInAction
@@ -37,7 +38,22 @@ namespace UnityInAction
       }
       else
       {
+        verticalRot -= Input.GetAxis("Mouse Y") * sensitivityVert;
+        verticalRot = Mathf.Clamp(verticalRot, minimumVert, maximumVert);
+
+        float delta = Input.GetAxis("Mouse X") * sensitivityHor;
+        float horizontalRot = transform.localEulerAngles.y + delta;
         
+        transform.localEulerAngles = new Vector3(verticalRot, horizontalRot, 0);
+      }
+    }
+
+    private void Start()
+    {
+      Rigidbody body = GetComponent<Rigidbody>();
+      if (body)
+      {
+        body.freezeRotation = true;
       }
     }
   }
