@@ -3,10 +3,15 @@ using UnityEngine;
 
 namespace UnityInAction
 {
+  [RequireComponent(typeof(WanderingAI))]
   public class ReactiveTarget : MonoBehaviour
   {
     public void ReactToHit()
     {
+      if (transform.TryGetComponent<WanderingAI>(out var behavior))
+      {
+        behavior.SetAlive(false);
+      }
       //круитин
       StartCoroutine(Die());
     }
