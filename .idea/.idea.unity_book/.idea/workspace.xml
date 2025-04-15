@@ -6,11 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e9cf4d00-f529-4d01-b25b-82151d04f8a1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.unity_book/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.unity_book/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Flame.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Flame.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Fireball.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Fireball.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/UnityInAction/Fireball.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UnityInAction/Fireball.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityInAction/WanderingAI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UnityInAction/WanderingAI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UnityInAction/PlayerCharacter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UnityInAction/PlayerCharacter.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +109,7 @@
       <workItem from="1744529459472" duration="4137000" />
       <workItem from="1744534716669" duration="729000" />
       <workItem from="1744603668365" duration="1414000" />
-      <workItem from="1744690183633" duration="3228000" />
+      <workItem from="1744690183633" duration="3498000" />
     </task>
     <servers />
   </component>

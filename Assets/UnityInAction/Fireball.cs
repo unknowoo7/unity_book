@@ -18,7 +18,7 @@ namespace UnityInAction
     {
       if (other.TryGetComponent<PlayerCharacter>(out var player))
       {
-        Debug.Log($"Player hit {player.name}");
+        player.Hurt(damage);
       }
       Destroy(gameObject);
     }
