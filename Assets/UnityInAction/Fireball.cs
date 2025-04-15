@@ -1,16 +1,26 @@
+using System;
 using UnityEngine;
 
-public class Fireball : MonoBehaviour
+namespace UnityInAction
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+  public class Fireball : MonoBehaviour
+  {
+
+    public float speed = 10.0f;
+    public int damage = 1;
+
+    private void Update()
     {
-        
+      transform.Translate(0, 0, speed * Time.deltaTime);
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnTriggerEnter(Collider other)
     {
-        
+      if (other.TryGetComponent<PlayerCharacter>(out var player))
+      {
+        Debug.Log($"Player hit {player.name}");
+      }
+      Destroy(gameObject);
     }
+  }
 }
